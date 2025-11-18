@@ -1,0 +1,3 @@
+#!/bin/bash
+# display all files (including hidden) in long format
+ls -la
