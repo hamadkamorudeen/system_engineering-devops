@@ -1,2 +1,2 @@
-# -system_engineering-devops
+# system_engineering-devops
 SE 102
