@@ -1,3 +1,2 @@
 #!/bin/bash
-# 7-file
-printf '%s\n' "Best School" > $'\\*\\\\\'"Best School"\\\'\\\\*$\\?\\*\\*\\*\\*\\*:)'
+echo "Best School" > "\*\\'\"Best School\"\\'\\*\$\?*****:)"
