@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
-# A Bash script that displays "To infinity and beyond" indefinitely and reacts to SIGTERM with "I am invincible!!!"
+# A Bash script that loops forever and prints a message when receiving SIGTERM
 
-trap 'echo "I am invincible!!!"' SIGTERM
+# Print on SIGTERM and keep running
+trap 'echo "I am invincible!!!"' TERM
 
-while true
-do
+while true; do
   echo "To infinity and beyond"
   sleep 2
 done
